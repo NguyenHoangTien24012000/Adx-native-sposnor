@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: Roboto;
+    src: url(/src/fonts/Roboto-Regular.ttf);
+}
+body {
+    font-family: Roboto;
+    box-sizing: border-box;
+    background-color: aqua;
+}
