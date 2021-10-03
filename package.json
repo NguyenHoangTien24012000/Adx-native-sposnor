@@ -18,7 +18,15 @@
   "homepage": "https://github.com/NguyenHoangTien24012000/Adx-native-sposnor#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.8",
+    "gulp-postcss": "^9.0.1",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.3.8",
+    "sass": "^1.42.1"
   }
 }
