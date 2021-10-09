@@ -1,0 +1,34 @@
+{
+  "name": "adx-native-sposnor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenHoangTien24012000/Adx-native-sposnor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenHoangTien24012000/Adx-native-sposnor/issues"
+  },
+  "homepage": "https://github.com/NguyenHoangTien24012000/Adx-native-sposnor#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-batch-replace": "0.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.3.9",
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "gulp-file-include": "^2.3.0",
+    "gulp-replace": "^1.1.3"
+  }
+}
