@@ -9,7 +9,7 @@ module.exports = {
         path : path.resolve(__dirname, 'dist')
     },
     mode : 'development',
-    watch :'true',
+    watch :true,
     plugins : [
         new CleanWebpackPlugin,
         new HtmlWebpackPlugin({
@@ -17,5 +17,16 @@ module.exports = {
             filename : 'index.html'
         })
     ],
-    devtool : 'inline-source-map'
+    devtool : 'inline-source-map',
+    module: {
+        rules: [
+          {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: [{
+              loader: 'uglify-template-string-loader'
+            }]
+          }
+        ]
+      }
 }
