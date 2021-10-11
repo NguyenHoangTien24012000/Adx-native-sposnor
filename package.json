@@ -4,7 +4,9 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/NguyenHoangTien24012000/Adx-native-sposnor#readme",
   "dependencies": {
     "browser-sync": "^2.27.5",
+    "clean-webpack-plugin": "^4.0.0",
     "cssnano": "^5.0.8",
     "gulp": "^4.0.2",
     "gulp-batch-replace": "0.0.0",
@@ -29,6 +32,9 @@
   },
   "devDependencies": {
     "gulp-file-include": "^2.3.0",
-    "gulp-replace": "^1.1.3"
+    "gulp-replace": "^1.1.3",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
   }
 }
